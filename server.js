@@ -27,7 +27,7 @@ app.use(
    HEALTH CHECK
    ========================= */
 app.get("/", (req, res) => {
-  res.send("GIF proxy is running");
+  res.send("GIF proxy is running on version 1.0.1");
 });
 
 /* =========================
