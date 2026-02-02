@@ -44,7 +44,7 @@ app.get("/search", async (req, res) => {
     const giphyRes = await fetch(
       `https://api.giphy.com/v1/gifs/search?api_key=${GIPHY_API_KEY}&q=${encodeURIComponent(
         q
-      )}&limit=20`
+      )}&limit=30`
     );
 
     const json = await giphyRes.json();
